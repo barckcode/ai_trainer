@@ -45,5 +45,5 @@ export function AuthGuard({ children }: AuthGuardProps) {
         return null
     }
 
-    return <>{children}</>
+    return <div className="h-full">{children}</div>
 }

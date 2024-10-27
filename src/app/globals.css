@@ -8,6 +8,10 @@
     --accent: #6c62ff;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: var(--primary-light);
     color: var(--primary-dark);

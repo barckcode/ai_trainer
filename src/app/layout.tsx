@@ -9,7 +9,6 @@ export const metadata: Metadata = {
     description: 'Tu plataforma de entrenamiento IA',
 }
 
-// Componente de carga que se puede reutilizar
 const LoadingSpinner = () => (
     <div className="min-h-screen flex items-center justify-center">
         <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-accent"></div>
@@ -22,8 +21,8 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="es">
-            <body className={inter.className}>
+        <html lang="en" className="h-full">
+            <body className={`${inter.className} h-full`}>
                 {children}
             </body>
         </html>
